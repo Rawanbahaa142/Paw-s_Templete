@@ -40,7 +40,7 @@ The goal is to demonstrate my understanding of layout structure, semantic HTML, 
 
 ## 🚀 Live Demo
 
-[Click here to view the website](https://rawanbahaa142.github.io/Paw-s_Templete/)
+[Click here to view the website][(https://rawanbahaa142.github.io/Paw-s_Templete/)
 
 ---
 
