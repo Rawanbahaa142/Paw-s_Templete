@@ -3,24 +3,23 @@
       font-size: 16px;
       /* padding: 0 2px; */
     }
+    
     .container {
       flex-direction: column;
       align-items: center;
-      text-align: center;
-    }
+      text-align: center;         
+      padding: 0 16px;
+      }
+    
+  
     .interface{
          position: relative;
          padding: 0 10px;
     }
-  
-    .navbar-container {
-      display: none;
-    }
+   .navbar-container {
+    display: none;
+  }
 
-  
-    .nav-buttons {
-      display: none;
-    }
     .menu-icon{
         display: block;
         position: absolute;
