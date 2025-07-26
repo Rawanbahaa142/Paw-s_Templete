@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
     body {
       font-size: 16px;
-      padding: 0 20px;
+      /* padding: 0 2px; */
     }
     .container {
       flex-direction: column;
@@ -10,6 +10,7 @@
     }
     .interface{
          position: relative;
+         padding: 0 10px;
     }
   
     .navbar-container {
@@ -75,7 +76,6 @@
         border-radius: 15px;
       }
       .btn-more {
-        /* background-color: var(--text-color); */
         color: var(--text-color);
         padding: 10px 20px;
         border-radius: 30px;
@@ -85,9 +85,19 @@
         transition: 0.3s;
         
       }   
+      .services .big-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .services .big-box .flex-item .card img {
+        height: 200px; 
+    }
     
       .services .big-box .flex-item{
-         width: 100%;
+       flex: 1 1 100%; 
+        width: 100%;  
          margin-bottom: 20px;
          position: relative;
          overflow: hidden;
@@ -96,8 +106,9 @@
          transition: 0.3s;
          display: flex;
          flex-direction: row;
-         gap: 20px;
+         gap: 10px;
       }
+
       .services .big-box .flex-item .card{
         width:100%;
         background-color: #fff;
@@ -116,15 +127,80 @@
        display: none;
       }
 
-       .team .cards .card {
-        width: 48%;
+      .team .cards .card {
+        width: 45%; 
+        height: 225px; 
     }
+    .team .cards .card img {
+        height: 100px;
+    }
+.team .cards .card-text .social-icons {
+        justify-content: center;
+      
+    } 
+    .team .cards .card-text {
+      height: calc(100% - 100px); 
+  }
+
+    .blog{
+      display: none;
+    }
+    .contact-main {
+      flex-direction: column;
+  }
+  .left-form, .right-links {
+      flex: 1 1 100%;
+  }
+  .left-form{
+    text-align: left;
+  }
+  .flex-box {
+    flex-direction: column;
+}
+.box-contact {
+    flex: 1 1 40%;
+
+}
+  .newsletter .top-content {
+      flex-direction: column;
+      text-align: center;
+  }
+  .newsletter .top-content .right form {
+      flex-direction: column;
+      width: 100%;
+  }
+  .newsletter .top-content .right form input,
+  .newsletter .top-content .right form button {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-col {
+    flex: 1 1 50%; 
+    margin-bottom: 20px;
+}
+
+.footer-bottom {
+    flex-direction: column;
+    text-align: center;
+}
+
+.social-icons {
+    justify-content: center;
+}
 
     }
 
     @media (max-width: 1024px) {
     .team .cards .card {
         width: 45%;
+    }
+    .blog{
+      display:none;
     }
 }
 
